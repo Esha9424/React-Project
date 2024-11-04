@@ -22,7 +22,7 @@ function Card({username}) {
     </div>
     <div className="flex flex-col  rounded-b-xl py-4 ">
       <div className="flex justify-between">
-        <h1 className="font-RubikBold ">Bored ape nft accidental</h1>
+        <h1 className="font-RubikBold ">{username}</h1>
         <h1 className="font-bold font-RubikBold">Price</h1>
       </div>
       <div className="flex  justify-between font-mono">
